@@ -1,0 +1,73 @@
+[0m16:32:57.316890 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236999652B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002369787DBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023697753750>]}
+
+
+============================== 16:32:57.325699 | f14a9224-99a1-4e87-879f-ff17178bb4f6 ==============================
+[0m16:32:57.325699 [info ] [MainThread]: Running with dbt=1.9.4
+[0m16:32:57.326722 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\dygan\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init dbt_stock_project', 'send_anonymous_usage_stats': 'True'}
+[0m16:32:57.366014 [debug] [MainThread]: Starter project path: C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m16:32:57.389595 [info ] [MainThread]: 
+Your new dbt project "dbt_stock_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:32:57.390674 [info ] [MainThread]: Setting up your profile.
+[0m16:36:19.583484 [error] [MainThread]: Encountered an error:
+
+[0m16:36:19.631992 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\cli\requires.py", line 153, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\cli\requires.py", line 103, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\cli\main.py", line 477, in init
+    results = task.run()
+  File "C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\task\init.py", line 262, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\task\init.py", line 179, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\task\init.py", line 163, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+  File "C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\task\init.py", line 129, in generate_target_from_input
+    target[key] = click.prompt(
+                  ~~~~~~~~~~~~^
+        text, default=default, hide_input=hide_input, type=type
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\click\termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+  File "C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\click\termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m16:36:19.637387 [debug] [MainThread]: Command `dbt init` failed at 16:36:19.635301 after 202.52 seconds
+[0m16:36:19.647048 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236AA914E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002369C052D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236AA867130>]}
+[0m16:36:19.652345 [debug] [MainThread]: Flushing usage events
+[0m16:36:20.092872 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:36:45.430503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD411A52B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD3F0ADBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD3EF93750>]}
+
+
+============================== 16:36:45.438627 | 637cd52c-dfc4-4f09-bad1-0c5a16f59138 ==============================
+[0m16:36:45.438627 [info ] [MainThread]: Running with dbt=1.9.4
+[0m16:36:45.439878 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\dygan\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init dbt_stock_project', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:36:45.467088 [info ] [MainThread]: A project called dbt_stock_project already exists here.
+[0m16:36:45.468367 [debug] [MainThread]: Command `dbt init` succeeded at 16:36:45.468230 after 0.28 seconds
+[0m16:36:45.468838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD42339350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD42356E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DD421B0F30>]}
+[0m16:36:45.469283 [debug] [MainThread]: Flushing usage events
+[0m16:36:45.802375 [debug] [MainThread]: An error was encountered while trying to flush usage events

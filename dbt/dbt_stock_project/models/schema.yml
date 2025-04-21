@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: raw
+    database: USER_DB_GRIZZLY
+    schema: GRIZZLY_RAW
+    tables:
+      - name: market_data
+
+models:
+  - name: stock_moving_avg
+    description: "7-day moving average for stocks"
+    columns:
+      - name: symbol
+        description: "Ticker symbol of the stock"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['AAPL', 'TSLA', 'GOOGL', 'NVDA']
+      - name: date
+        description: "Trading date"
+        tests:
+          - not_null
+      - name: ma_7day
+        description: "7-day moving average of the closing price"
+        tests:
+          - not_null
+
+  - name: stock_rsi
+    description: "14-day RSI for stocks"

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    database: USER_DB_GRIZZLY
+    schema: GRIZZLY_RAW
+    description: "Schema storing raw stock data ingested from yFinance via Airflow"
+    tables:
+      - name: market_data
+        identifier: market_data
+        description: "Raw stock price data including symbol, date, open, high, low, close, and volume"

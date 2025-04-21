@@ -1,0 +1,110 @@
+[2025-04-20T16:11:43.862+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-20T16:11:44.059+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_stock_data.load_to_snowflake scheduled__2025-04-19T09:00:00+00:00 [queued]>
+[2025-04-20T16:11:44.107+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_stock_data.load_to_snowflake scheduled__2025-04-19T09:00:00+00:00 [queued]>
+[2025-04-20T16:11:44.109+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-04-20T16:11:44.166+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): load_to_snowflake> on 2025-04-19 09:00:00+00:00
+[2025-04-20T16:11:44.404+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=364) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-20T16:11:44.410+0000] {standard_task_runner.py:72} INFO - Started process 368 to run task
+[2025-04-20T16:11:44.375+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'extract_stock_data', 'load_to_snowflake', 'scheduled__2025-04-19T09:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/extract_stock_data.py', '--cfg-path', '/tmp/tmpf6641x83']
+[2025-04-20T16:11:44.440+0000] {standard_task_runner.py:105} INFO - Job 4: Subtask load_to_snowflake
+[2025-04-20T16:11:46.091+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_stock_data.load_to_snowflake scheduled__2025-04-19T09:00:00+00:00 [running]> on host 56370a2e16ce
+[2025-04-20T16:11:47.819+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_stock_data' AIRFLOW_CTX_TASK_ID='load_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-04-19T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-19T09:00:00+00:00'
+[2025-04-20T16:11:47.830+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-20T16:11:48.384+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-20T16:11:48.405+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-04-20T16:11:48.420+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-04-20T16:11:48.423+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-04-20T16:11:58.228+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:11:58.396+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:11:58.597+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:11:58.842+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-20T16:11:58.854+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-04-20T16:11:58.877+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-04-20T16:11:58.885+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-04-20T16:11:59.596+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:11:59.603+0000] {sql.py:509} INFO - Running statement: PUT 'file:///tmp/AAPL_data.csv' @USER_DB_GRIZZLY.GRIZZLY_RAW.stock_stage/AAPL_data.csv AUTO_COMPRESS=TRUE OVERWRITE=TRUE, parameters: None
+[2025-04-20T16:12:04.425+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-04-20T16:12:04.434+0000] {snowflake.py:422} INFO - Rows affected: 1
+[2025-04-20T16:12:04.437+0000] {snowflake.py:423} INFO - Snowflake query id: 01bbd18b-0304-fcae-0004-59ff00233976
+[2025-04-20T16:12:04.583+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:12:04.596+0000] {connection.py:788} INFO - closed
+[2025-04-20T16:12:04.681+0000] {connection.py:794} INFO - No async queries seem to be running, deleting session
+[2025-04-20T16:12:05.047+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:12:06.247+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:12:07.473+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:12:07.480+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-04-20T16:12:07.487+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-04-20T16:12:07.493+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-04-20T16:12:08.344+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:12:08.352+0000] {sql.py:509} INFO - Running statement: PUT 'file:///tmp/NVDA_data.csv' @USER_DB_GRIZZLY.GRIZZLY_RAW.stock_stage/NVDA_data.csv AUTO_COMPRESS=TRUE OVERWRITE=TRUE, parameters: None
+[2025-04-20T16:12:09.104+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-04-20T16:12:09.109+0000] {snowflake.py:422} INFO - Rows affected: 1
+[2025-04-20T16:12:09.111+0000] {snowflake.py:423} INFO - Snowflake query id: 01bbd18c-0304-fca5-0004-59ff0023585e
+[2025-04-20T16:12:09.220+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:12:09.222+0000] {connection.py:788} INFO - closed
+[2025-04-20T16:12:09.284+0000] {connection.py:794} INFO - No async queries seem to be running, deleting session
+[2025-04-20T16:12:09.671+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:12:10.545+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:12:11.566+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:12:11.731+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:12:11.743+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-20T16:12:11.840+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-20T16:12:11.865+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_stock_data, task_id=load_to_snowflake, run_id=scheduled__2025-04-19T09:00:00+00:00, execution_date=20250419T090000, start_date=20250420T161144, end_date=20250420T161211
+[2025-04-20T16:12:12.112+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-20T16:12:12.296+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-20T16:12:12.339+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-04-20T16:15:50.538+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-20T16:15:50.627+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_stock_data.load_to_snowflake scheduled__2025-04-19T09:00:00+00:00 [queued]>
+[2025-04-20T16:15:50.668+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_stock_data.load_to_snowflake scheduled__2025-04-19T09:00:00+00:00 [queued]>
+[2025-04-20T16:15:50.670+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-04-20T16:15:50.722+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): load_to_snowflake> on 2025-04-19 09:00:00+00:00
+[2025-04-20T16:15:50.761+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=484) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-20T16:15:50.767+0000] {standard_task_runner.py:72} INFO - Started process 487 to run task
+[2025-04-20T16:15:50.759+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'extract_stock_data', 'load_to_snowflake', 'scheduled__2025-04-19T09:00:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/extract_stock_data.py', '--cfg-path', '/tmp/tmp688nepjv']
+[2025-04-20T16:15:50.769+0000] {standard_task_runner.py:105} INFO - Job 9: Subtask load_to_snowflake
+[2025-04-20T16:15:50.915+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_stock_data.load_to_snowflake scheduled__2025-04-19T09:00:00+00:00 [running]> on host 56370a2e16ce
+[2025-04-20T16:15:51.572+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='extract_stock_data' AIRFLOW_CTX_TASK_ID='load_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-04-19T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-19T09:00:00+00:00'
+[2025-04-20T16:15:51.578+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-20T16:15:51.628+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-20T16:15:51.634+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-04-20T16:15:51.637+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-04-20T16:15:51.639+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-04-20T16:15:53.514+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:15:53.603+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:15:53.826+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:15:53.835+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-20T16:15:53.837+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-04-20T16:15:53.839+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-04-20T16:15:53.840+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-04-20T16:15:54.200+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:15:54.202+0000] {sql.py:509} INFO - Running statement: PUT 'file:///tmp/AAPL_data.csv' @USER_DB_GRIZZLY.GRIZZLY_RAW.stock_stage/AAPL_data.csv AUTO_COMPRESS=TRUE OVERWRITE=TRUE, parameters: None
+[2025-04-20T16:15:55.268+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-04-20T16:15:55.281+0000] {snowflake.py:422} INFO - Rows affected: 1
+[2025-04-20T16:15:55.288+0000] {snowflake.py:423} INFO - Snowflake query id: 01bbd18f-0304-fe9b-0004-59ff002372b2
+[2025-04-20T16:15:55.412+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:15:55.432+0000] {connection.py:788} INFO - closed
+[2025-04-20T16:15:55.612+0000] {connection.py:794} INFO - No async queries seem to be running, deleting session
+[2025-04-20T16:15:56.240+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:15:57.128+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:15:58.520+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:15:58.522+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-04-20T16:15:58.524+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-04-20T16:15:58.525+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-04-20T16:15:58.899+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:15:58.900+0000] {sql.py:509} INFO - Running statement: PUT 'file:///tmp/NVDA_data.csv' @USER_DB_GRIZZLY.GRIZZLY_RAW.stock_stage/NVDA_data.csv AUTO_COMPRESS=TRUE OVERWRITE=TRUE, parameters: None
+[2025-04-20T16:15:59.453+0000] {sql.py:518} INFO - Rows affected: 1
+[2025-04-20T16:15:59.455+0000] {snowflake.py:422} INFO - Rows affected: 1
+[2025-04-20T16:15:59.456+0000] {snowflake.py:423} INFO - Snowflake query id: 01bbd18f-0305-0010-0004-59ff0023657e
+[2025-04-20T16:15:59.539+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:15:59.539+0000] {connection.py:788} INFO - closed
+[2025-04-20T16:15:59.586+0000] {connection.py:794} INFO - No async queries seem to be running, deleting session
+[2025-04-20T16:15:59.817+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:16:00.371+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:16:01.487+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:16:01.576+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-04-20T16:16:01.577+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-20T16:16:01.605+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-20T16:16:01.609+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=extract_stock_data, task_id=load_to_snowflake, run_id=scheduled__2025-04-19T09:00:00+00:00, execution_date=20250419T090000, start_date=20250420T161550, end_date=20250420T161601
+[2025-04-20T16:16:01.746+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-20T16:16:01.802+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-20T16:16:01.820+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,29 @@
+[0m16:37:43.001378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC3B4852B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC39389BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC39273750>]}
+
+
+============================== 16:37:43.005693 | 9d281626-1c80-43ea-95cf-09b0f740147a ==============================
+[0m16:37:43.005693 [info ] [MainThread]: Running with dbt=1.9.4
+[0m16:37:43.006575 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\dygan\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init dbt_stock_project', 'send_anonymous_usage_stats': 'True'}
+[0m16:37:43.022390 [debug] [MainThread]: Starter project path: C:\Users\dygan\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m16:37:43.050619 [info ] [MainThread]: 
+Your new dbt project "dbt_stock_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:37:43.051658 [info ] [MainThread]: Setting up your profile.
+[0m16:39:02.862012 [info ] [MainThread]: Profile dbt_stock_project written to C:\Users\dygan\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:39:02.863683 [debug] [MainThread]: Command `dbt init` succeeded at 16:39:02.863437 after 80.03 seconds
+[0m16:39:02.864323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC4C434D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC3CBA2E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DC3C491260>]}
+[0m16:39:02.864963 [debug] [MainThread]: Flushing usage events
+[0m16:39:03.288406 [debug] [MainThread]: An error was encountered while trying to flush usage events

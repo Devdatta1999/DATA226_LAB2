@@ -126,7 +126,7 @@ with DAG(
 
     trigger_dbt_dag = TriggerDagRunOperator(
         task_id="trigger_dbt_dag",
-        trigger_dag_id="dbt_elt",  
+        trigger_dag_id="BuildELT_dbt",  
     )
 
     load_task >> trigger_dbt_dag

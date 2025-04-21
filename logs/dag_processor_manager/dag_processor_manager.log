@@ -233,3 +233,1475 @@ File Path                                PID    Runtime      # DAGs    # Errors 
 ---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
 /opt/airflow/dags/extract_stock_data.py                           1           0  0.76s           2025-04-20T23:25:02                      45
 ================================================================================
+[2025-04-21T01:50:07.097+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T01:50:07.097+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-04-21T01:50:07.097+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T01:50:07.098+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T01:50:07.099+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T01:50:08.617+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    224  0.02s             0           0                                                   0
+/opt/airflow/dags/dbt_elt.py               227  0.01s             0           0                                                   0
+================================================================================
+[2025-04-21T01:50:39.071+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    265  0.02s             1           0  0.26s           2025-04-21T01:50:08                      45
+/opt/airflow/dags/dbt_elt.py               268  0.00s             0           1  0.11s           2025-04-21T01:50:08                       4
+================================================================================
+[2025-04-21T01:51:09.510+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    282  0.01s             1           0  0.13s           2025-04-21T01:50:39                      12
+/opt/airflow/dags/dbt_elt.py               285  0.00s             0           1  0.04s           2025-04-21T01:50:39                       6
+================================================================================
+[2025-04-21T01:51:39.924+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    298  0.02s             1           0  0.11s           2025-04-21T01:51:09                      12
+/opt/airflow/dags/dbt_elt.py               301  0.00s             0           1  0.05s           2025-04-21T01:51:09                       6
+================================================================================
+[2025-04-21T02:29:29.801+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T02:29:29.801+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-04-21T02:29:29.803+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T02:29:29.804+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T02:29:29.816+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T02:29:30.934+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    167  0.02s             0           0                                                   0
+/opt/airflow/dags/dbt_elt.py               170  0.01s             0           0                                                   0
+================================================================================
+[2025-04-21T02:30:01.403+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    177  0.03s             0           1  0.04s           2025-04-21T02:29:30                       3
+/opt/airflow/dags/dbt_elt.py               179  0.01s             0           1  0.04s           2025-04-21T02:29:30                       4
+================================================================================
+[2025-04-21T02:30:31.902+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dbt_elt.py               189  0.00s             0           1  0.16s           2025-04-21T02:30:01                       6
+/opt/airflow/dags/extract_stock_data.py    187  0.01s             0           1  0.15s           2025-04-21T02:30:01                       5
+================================================================================
+[2025-04-21T02:31:02.314+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    197  0.01s             0           1  0.06s           2025-04-21T02:30:31                       5
+/opt/airflow/dags/dbt_elt.py               200  0.00s             0           1  0.05s           2025-04-21T02:30:31                       6
+================================================================================
+[2025-04-21T02:31:32.799+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    207  0.02s             0           1  0.07s           2025-04-21T02:31:02                       5
+/opt/airflow/dags/dbt_elt.py               209  0.01s             0           1  0.06s           2025-04-21T02:31:02                       6
+================================================================================
+[2025-04-21T02:31:52.975+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T02:32:27.714+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T02:32:27.716+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-04-21T02:32:27.718+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T02:32:27.718+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T02:32:27.731+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T02:32:29.183+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    167  0.02s             0           0                                                   0
+/opt/airflow/dags/dbt_elt.py               170  0.02s             0           0                                                   0
+================================================================================
+[2025-04-21T02:32:59.570+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dbt_elt.py               180  0.00s             0           1  0.05s           2025-04-21T02:32:29                       4
+/opt/airflow/dags/extract_stock_data.py    177  0.01s             0           1  0.05s           2025-04-21T02:32:29                       3
+================================================================================
+[2025-04-21T02:33:29.981+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    187  0.02s             0           1  0.06s           2025-04-21T02:32:59                       5
+/opt/airflow/dags/dbt_elt.py               190  0.00s             0           1  0.05s           2025-04-21T02:32:59                       6
+================================================================================
+[2025-04-21T02:34:00.423+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    197  0.02s             0           1  0.07s           2025-04-21T02:33:30                       5
+/opt/airflow/dags/dbt_elt.py               200  0.00s             0           1  0.05s           2025-04-21T02:33:30                       6
+================================================================================
+[2025-04-21T02:34:30.791+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    207  0.01s             0           1  0.06s           2025-04-21T02:34:00                       5
+/opt/airflow/dags/dbt_elt.py               210  0.00s             0           1  0.05s           2025-04-21T02:34:00                       6
+================================================================================
+[2025-04-21T02:35:01.159+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    217  0.02s             0           1  0.05s           2025-04-21T02:34:30                       5
+/opt/airflow/dags/dbt_elt.py               220  0.00s             0           1  0.04s           2025-04-21T02:34:30                       6
+================================================================================
+[2025-04-21T02:35:31.520+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    227  0.02s             0           1  0.05s           2025-04-21T02:35:01                       5
+/opt/airflow/dags/dbt_elt.py               230  0.01s             0           1  0.04s           2025-04-21T02:35:01                       6
+================================================================================
+[2025-04-21T02:36:01.930+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    237  0.01s             0           1  0.08s           2025-04-21T02:35:31                       5
+/opt/airflow/dags/dbt_elt.py               240  0.00s             0           1  0.07s           2025-04-21T02:35:31                       6
+================================================================================
+[2025-04-21T02:36:32.382+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    247  0.02s             0           1  0.05s           2025-04-21T02:36:01                       5
+/opt/airflow/dags/dbt_elt.py               250  0.01s             0           1  0.04s           2025-04-21T02:36:01                       6
+================================================================================
+[2025-04-21T02:37:02.858+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    257  0.01s             0           1  0.09s           2025-04-21T02:36:32                       5
+/opt/airflow/dags/dbt_elt.py               260  0.00s             0           1  0.08s           2025-04-21T02:36:32                       6
+================================================================================
+[2025-04-21T02:37:28.215+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T02:37:28.233+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T02:37:33.325+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    267  0.02s             0           1  0.06s           2025-04-21T02:37:02                       5
+/opt/airflow/dags/dbt_elt.py               270  0.00s             0           1  0.05s           2025-04-21T02:37:02                       6
+================================================================================
+[2025-04-21T02:38:03.754+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    277  0.02s             0           1  0.06s           2025-04-21T02:37:33                       5
+/opt/airflow/dags/dbt_elt.py               280  0.01s             0           1  0.05s           2025-04-21T02:37:33                       6
+================================================================================
+[2025-04-21T02:38:34.190+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    287  0.01s             0           1  0.05s           2025-04-21T02:38:03                       5
+/opt/airflow/dags/dbt_elt.py               290  0.00s             0           1  0.04s           2025-04-21T02:38:03                       6
+================================================================================
+[2025-04-21T02:39:04.614+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    297  0.01s             0           1  0.04s           2025-04-21T02:38:34                       5
+/opt/airflow/dags/dbt_elt.py               300  0.00s             0           1  0.04s           2025-04-21T02:38:34                       6
+================================================================================
+[2025-04-21T02:39:35.023+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    307  0.01s             0           1  0.04s           2025-04-21T02:39:04                       5
+/opt/airflow/dags/dbt_elt.py               310  0.00s             0           1  0.04s           2025-04-21T02:39:04                       6
+================================================================================
+[2025-04-21T02:40:05.453+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    317  0.02s             0           1  0.04s           2025-04-21T02:39:35                       5
+/opt/airflow/dags/dbt_elt.py               320  0.00s             0           1  0.04s           2025-04-21T02:39:35                       6
+================================================================================
+[2025-04-21T02:40:35.869+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    327  0.02s             0           1  0.06s           2025-04-21T02:40:05                       5
+/opt/airflow/dags/dbt_elt.py               330  0.00s             0           1  0.05s           2025-04-21T02:40:05                       6
+================================================================================
+[2025-04-21T02:41:06.242+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    337  0.01s             0           1  0.05s           2025-04-21T02:40:35                       5
+/opt/airflow/dags/dbt_elt.py               340  0.00s             0           1  0.05s           2025-04-21T02:40:35                       6
+================================================================================
+[2025-04-21T02:41:36.662+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    347  0.02s             0           1  0.04s           2025-04-21T02:41:06                       5
+/opt/airflow/dags/dbt_elt.py               350  0.01s             0           1  0.04s           2025-04-21T02:41:06                       6
+================================================================================
+[2025-04-21T02:42:07.139+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    357  0.02s             0           1  0.05s           2025-04-21T02:41:36                       5
+/opt/airflow/dags/dbt_elt.py               360  0.00s             0           1  0.04s           2025-04-21T02:41:36                       6
+================================================================================
+[2025-04-21T02:42:28.402+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T02:42:28.411+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T02:42:33.135+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T02:43:46.520+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T02:43:46.522+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-04-21T02:43:46.523+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T02:43:46.523+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T02:43:46.548+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T02:43:47.883+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    209  0.02s             0           0                                                   0
+/opt/airflow/dags/dbt_elt.py               212  0.01s             0           0                                                   0
+================================================================================
+[2025-04-21T02:44:18.416+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    219  0.03s             1           0  0.24s           2025-04-21T02:43:48                      45
+/opt/airflow/dags/dbt_elt.py               222  0.01s             0           1  0.04s           2025-04-21T02:43:47                       4
+================================================================================
+[2025-04-21T02:44:48.885+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    229  0.03s             1           0  0.17s           2025-04-21T02:44:18                      12
+/opt/airflow/dags/dbt_elt.py               230  0.01s             0           1  0.06s           2025-04-21T02:44:18                       6
+================================================================================
+[2025-04-21T02:45:19.288+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    239  0.01s             1           0  0.16s           2025-04-21T02:44:49                      12
+/opt/airflow/dags/dbt_elt.py               242  0.00s             0           1  0.05s           2025-04-21T02:44:48                       6
+================================================================================
+[2025-04-21T02:45:49.650+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    249  0.01s             1           0  0.11s           2025-04-21T02:45:19                      12
+/opt/airflow/dags/dbt_elt.py               252  0.00s             0           1  0.04s           2025-04-21T02:45:19                       6
+================================================================================
+[2025-04-21T02:46:20.118+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    259  0.02s             1           0  0.11s           2025-04-21T02:45:49                      12
+/opt/airflow/dags/dbt_elt.py               262  0.00s             0           1  0.04s           2025-04-21T02:45:49                       6
+================================================================================
+[2025-04-21T02:46:50.556+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    269  0.01s             1           0  0.14s           2025-04-21T02:46:20                      12
+/opt/airflow/dags/dbt_elt.py               272  0.01s             0           1  0.05s           2025-04-21T02:46:20                       6
+================================================================================
+[2025-04-21T02:47:21.024+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    279  0.02s             1           0  0.13s           2025-04-21T02:46:50                      12
+/opt/airflow/dags/dbt_elt.py               282  0.00s             0           1  0.04s           2025-04-21T02:46:50                       6
+================================================================================
+[2025-04-21T02:47:51.629+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dbt_elt.py               292  0.00s             1           0  0.32s           2025-04-21T02:47:21                      46
+/opt/airflow/dags/extract_stock_data.py    289  0.01s             1           0  0.23s           2025-04-21T02:47:21                      12
+================================================================================
+[2025-04-21T02:48:22.055+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    299  0.01s             1           0  0.13s           2025-04-21T02:47:51                      12
+/opt/airflow/dags/dbt_elt.py               302  0.00s             1           0  0.07s           2025-04-21T02:47:51                      13
+================================================================================
+[2025-04-21T02:48:47.400+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T02:48:47.405+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T02:48:52.477+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    309  0.01s             1           0  0.09s           2025-04-21T02:48:22                      12
+/opt/airflow/dags/dbt_elt.py               312  0.00s             1           0  0.05s           2025-04-21T02:48:22                      13
+================================================================================
+[2025-04-21T02:49:22.954+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    319  0.02s             1           0  0.11s           2025-04-21T02:48:52                      12
+/opt/airflow/dags/dbt_elt.py               322  0.00s             1           0  0.07s           2025-04-21T02:48:52                      13
+================================================================================
+[2025-04-21T02:49:53.449+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    329  0.02s             1           0  0.16s           2025-04-21T02:49:23                      12
+/opt/airflow/dags/dbt_elt.py               332  0.00s             1           0  0.09s           2025-04-21T02:49:23                      13
+================================================================================
+[2025-04-21T02:50:23.866+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    358  0.01s             1           0  0.11s           2025-04-21T02:49:53                      12
+/opt/airflow/dags/dbt_elt.py               361  0.00s             1           0  0.06s           2025-04-21T02:49:53                      13
+================================================================================
+[2025-04-21T02:50:54.349+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    373  0.03s             1           0  0.12s           2025-04-21T02:50:23                      12
+/opt/airflow/dags/dbt_elt.py               376  0.01s             1           0  0.07s           2025-04-21T02:50:23                      13
+================================================================================
+[2025-04-21T02:51:24.835+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    383  0.02s             1           0  0.18s           2025-04-21T02:50:54                      12
+/opt/airflow/dags/dbt_elt.py               386  0.00s             1           0  0.11s           2025-04-21T02:50:54                      13
+================================================================================
+[2025-04-21T02:51:55.312+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    393  0.02s             1           0  0.14s           2025-04-21T02:51:24                      12
+/opt/airflow/dags/dbt_elt.py               396  0.00s             1           0  0.08s           2025-04-21T02:51:24                      13
+================================================================================
+[2025-04-21T02:52:25.831+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    403  0.03s             1           0  0.12s           2025-04-21T02:51:55                      12
+/opt/airflow/dags/dbt_elt.py               406  0.01s             1           0  0.07s           2025-04-21T02:51:55                      13
+================================================================================
+[2025-04-21T02:52:44.110+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T02:53:25.588+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T02:53:25.589+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-04-21T02:53:25.589+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T02:53:25.590+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T02:53:25.601+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T02:53:26.852+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    209  0.02s             0           0                                                   0
+/opt/airflow/dags/dbt_elt.py               212  0.01s             0           0                                                   0
+================================================================================
+[2025-04-21T02:53:57.230+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    219  0.02s             1           0  0.23s           2025-04-21T02:53:27                      45
+/opt/airflow/dags/dbt_elt.py               222  0.00s             0           1  0.05s           2025-04-21T02:53:26                       4
+================================================================================
+[2025-04-21T02:54:27.722+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    229  0.02s             1           0  0.18s           2025-04-21T02:53:57                      12
+/opt/airflow/dags/dbt_elt.py               232  0.00s             0           1  0.06s           2025-04-21T02:53:57                       6
+================================================================================
+[2025-04-21T02:54:58.192+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    239  0.02s             1           0  0.14s           2025-04-21T02:54:27                      12
+/opt/airflow/dags/dbt_elt.py               242  0.01s             0           1  0.05s           2025-04-21T02:54:27                       6
+================================================================================
+[2025-04-21T02:55:28.687+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    249  0.02s             1           0  0.11s           2025-04-21T02:54:58                      12
+/opt/airflow/dags/dbt_elt.py               252  0.00s             0           1  0.04s           2025-04-21T02:54:58                       6
+================================================================================
+[2025-04-21T02:55:59.245+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    288  0.02s             1           0  0.18s           2025-04-21T02:55:28                      12
+/opt/airflow/dags/dbt_elt.py               291  0.01s             1           0  0.17s           2025-04-21T02:55:28                      46
+================================================================================
+[2025-04-21T02:56:29.746+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    298  0.04s             1           0  0.12s           2025-04-21T02:55:59                      12
+/opt/airflow/dags/dbt_elt.py               301  0.01s             1           0  0.07s           2025-04-21T02:55:59                      13
+================================================================================
+[2025-04-21T02:57:00.292+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    308  0.02s             1           0  0.19s           2025-04-21T02:56:29                      12
+/opt/airflow/dags/dbt_elt.py               311  0.01s             1           0  0.12s           2025-04-21T02:56:29                      13
+================================================================================
+[2025-04-21T02:57:30.758+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    318  0.02s             1           0  0.13s           2025-04-21T02:57:00                      12
+/opt/airflow/dags/dbt_elt.py               321  0.01s             1           0  0.08s           2025-04-21T02:57:00                      13
+================================================================================
+[2025-04-21T02:58:01.209+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    328  0.02s             1           0  0.15s           2025-04-21T02:57:30                      12
+/opt/airflow/dags/dbt_elt.py               331  0.01s             1           0  0.09s           2025-04-21T02:57:30                      13
+================================================================================
+[2025-04-21T02:58:25.596+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T02:58:25.607+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T02:58:31.711+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    338  0.02s             1           0  0.14s           2025-04-21T02:58:01                      12
+/opt/airflow/dags/dbt_elt.py               341  0.00s             1           0  0.09s           2025-04-21T02:58:01                      13
+================================================================================
+[2025-04-21T02:59:02.199+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    348  0.01s             1           0  0.13s           2025-04-21T02:58:31                      12
+/opt/airflow/dags/dbt_elt.py               351  0.00s             1           0  0.09s           2025-04-21T02:58:31                      13
+================================================================================
+[2025-04-21T02:59:32.650+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    358  0.02s             1           0  0.11s           2025-04-21T02:59:02                      12
+/opt/airflow/dags/dbt_elt.py               361  0.00s             1           0  0.06s           2025-04-21T02:59:02                      13
+================================================================================
+[2025-04-21T03:00:03.104+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    368  0.01s             1           0  0.14s           2025-04-21T02:59:32                      12
+/opt/airflow/dags/dbt_elt.py               371  0.00s             1           0  0.09s           2025-04-21T02:59:32                      13
+================================================================================
+[2025-04-21T03:00:33.470+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    378  0.02s             1           0  0.11s           2025-04-21T03:00:03                      12
+/opt/airflow/dags/dbt_elt.py               381  0.00s             1           0  0.06s           2025-04-21T03:00:03                      13
+================================================================================
+[2025-04-21T03:01:03.929+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    388  0.02s             1           0  0.13s           2025-04-21T03:00:33                      12
+/opt/airflow/dags/dbt_elt.py               391  0.00s             1           0  0.09s           2025-04-21T03:00:33                      13
+================================================================================
+[2025-04-21T03:01:34.361+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    398  0.02s             1           0  0.11s           2025-04-21T03:01:04                      12
+/opt/airflow/dags/dbt_elt.py               401  0.00s             1           0  0.06s           2025-04-21T03:01:03                      13
+================================================================================
+[2025-04-21T03:02:04.792+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    408  0.02s             1           0  0.11s           2025-04-21T03:01:34                      12
+/opt/airflow/dags/dbt_elt.py               411  0.01s             1           0  0.06s           2025-04-21T03:01:34                      13
+================================================================================
+[2025-04-21T03:02:35.262+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    418  0.02s             1           0  0.13s           2025-04-21T03:02:04                      12
+/opt/airflow/dags/dbt_elt.py               421  0.00s             1           0  0.08s           2025-04-21T03:02:04                      13
+================================================================================
+[2025-04-21T03:03:05.714+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    428  0.02s             1           0  0.12s           2025-04-21T03:02:35                      12
+/opt/airflow/dags/dbt_elt.py               431  0.00s             1           0  0.07s           2025-04-21T03:02:35                      13
+================================================================================
+[2025-04-21T03:03:09.627+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T03:03:56.924+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T03:03:56.927+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-04-21T03:03:56.928+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T03:03:56.929+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T03:03:56.944+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T03:03:58.206+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    209  0.02s             0           0                                                   0
+/opt/airflow/dags/dbt_elt.py               212  0.01s             0           0                                                   0
+================================================================================
+[2025-04-21T03:04:28.554+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    219  0.02s             1           0  0.24s           2025-04-21T03:03:58                      45
+/opt/airflow/dags/dbt_elt.py               222  0.01s             0           1  0.05s           2025-04-21T03:03:58                       4
+================================================================================
+[2025-04-21T03:04:58.982+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    229  0.02s             1           0  0.14s           2025-04-21T03:04:28                      12
+/opt/airflow/dags/dbt_elt.py               232  0.00s             0           1  0.05s           2025-04-21T03:04:28                       6
+================================================================================
+[2025-04-21T03:05:29.401+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    239  0.02s             1           0  0.11s           2025-04-21T03:04:59                      12
+/opt/airflow/dags/dbt_elt.py               242  0.00s             0           1  0.04s           2025-04-21T03:04:59                       6
+================================================================================
+[2025-04-21T03:05:59.873+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    249  0.01s             1           0  0.13s           2025-04-21T03:05:29                      12
+/opt/airflow/dags/dbt_elt.py               252  0.00s             0           1  0.05s           2025-04-21T03:05:29                       6
+================================================================================
+[2025-04-21T03:06:30.307+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    259  0.02s             1           0  0.11s           2025-04-21T03:05:59                      12
+/opt/airflow/dags/dbt_elt.py               262  0.01s             0           1  0.04s           2025-04-21T03:05:59                       6
+================================================================================
+[2025-04-21T03:07:00.817+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    298  0.02s             1           0  0.16s           2025-04-21T03:06:30                      12
+/opt/airflow/dags/dbt_elt.py               301  0.00s             1           0  0.15s           2025-04-21T03:06:30                      46
+================================================================================
+[2025-04-21T03:07:31.341+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    308  0.01s             1           0  0.15s           2025-04-21T03:07:00                      12
+/opt/airflow/dags/dbt_elt.py               311  0.01s             1           0  0.09s           2025-04-21T03:07:00                      13
+================================================================================
+[2025-04-21T03:08:01.851+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    318  0.03s             1           0  0.12s           2025-04-21T03:07:31                      12
+/opt/airflow/dags/dbt_elt.py               320  0.01s             1           0  0.07s           2025-04-21T03:07:31                      13
+================================================================================
+[2025-04-21T03:08:32.344+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    328  0.02s             1           0  0.19s           2025-04-21T03:08:02                      12
+/opt/airflow/dags/dbt_elt.py               331  0.00s             1           0  0.13s           2025-04-21T03:08:01                      13
+================================================================================
+[2025-04-21T03:08:57.722+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T03:08:57.742+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T03:09:02.843+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    338  0.03s             1           0  0.12s           2025-04-21T03:08:32                      12
+/opt/airflow/dags/dbt_elt.py               341  0.01s             1           0  0.06s           2025-04-21T03:08:32                      13
+================================================================================
+[2025-04-21T03:09:33.296+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    348  0.02s             1           0  0.14s           2025-04-21T03:09:02                      12
+/opt/airflow/dags/dbt_elt.py               351  0.01s             1           0  0.08s           2025-04-21T03:09:02                      13
+================================================================================
+[2025-04-21T03:10:03.798+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    358  0.02s             1           0  0.12s           2025-04-21T03:09:33                      12
+/opt/airflow/dags/dbt_elt.py               361  0.01s             1           0  0.07s           2025-04-21T03:09:33                      13
+================================================================================
+[2025-04-21T03:10:34.325+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    368  0.02s             1           0  0.14s           2025-04-21T03:10:03                      12
+/opt/airflow/dags/dbt_elt.py               371  0.01s             1           0  0.09s           2025-04-21T03:10:03                      13
+================================================================================
+[2025-04-21T03:11:04.824+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    378  0.02s             1           0  0.14s           2025-04-21T03:10:34                      12
+/opt/airflow/dags/dbt_elt.py               381  0.01s             1           0  0.08s           2025-04-21T03:10:34                      13
+================================================================================
+[2025-04-21T03:11:35.241+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    388  0.02s             1           0  0.13s           2025-04-21T03:11:04                      12
+/opt/airflow/dags/dbt_elt.py               391  0.01s             1           0  0.08s           2025-04-21T03:11:04                      13
+================================================================================
+[2025-04-21T03:12:05.705+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    398  0.02s             1           0  0.11s           2025-04-21T03:11:35                      12
+/opt/airflow/dags/dbt_elt.py               401  0.01s             1           0  0.06s           2025-04-21T03:11:35                      13
+================================================================================
+[2025-04-21T03:12:36.189+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    408  0.02s             1           0  0.13s           2025-04-21T03:12:05                      12
+/opt/airflow/dags/dbt_elt.py               411  0.00s             1           0  0.08s           2025-04-21T03:12:05                      13
+================================================================================
+[2025-04-21T03:13:06.833+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    418  0.03s             1           0  0.16s           2025-04-21T03:12:36                      12
+/opt/airflow/dags/dbt_elt.py               420  0.00s             1           0  0.10s           2025-04-21T03:12:36                      13
+================================================================================
+[2025-04-21T03:13:37.317+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    428  0.02s             1           0  0.19s           2025-04-21T03:13:06                      12
+/opt/airflow/dags/dbt_elt.py               431  0.01s             1           0  0.13s           2025-04-21T03:13:06                      13
+================================================================================
+[2025-04-21T03:13:58.608+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T03:13:58.618+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T03:14:07.802+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    438  0.05s             1           0  0.12s           2025-04-21T03:13:37                      12
+/opt/airflow/dags/dbt_elt.py               441  0.01s             1           0  0.08s           2025-04-21T03:13:37                      13
+================================================================================
+[2025-04-21T03:14:38.319+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    448  0.02s             1           0  0.23s           2025-04-21T03:14:07                      12
+/opt/airflow/dags/dbt_elt.py               451  0.01s             1           0  0.15s           2025-04-21T03:14:07                      13
+================================================================================
+[2025-04-21T03:15:08.783+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    458  0.02s             1           0  0.11s           2025-04-21T03:14:38                      12
+/opt/airflow/dags/dbt_elt.py               461  0.00s             1           0  0.07s           2025-04-21T03:14:38                      13
+================================================================================
+[2025-04-21T03:15:39.252+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    468  0.02s             1           0  0.11s           2025-04-21T03:15:08                      12
+/opt/airflow/dags/dbt_elt.py               471  0.01s             1           0  0.07s           2025-04-21T03:15:08                      13
+================================================================================
+[2025-04-21T03:16:09.691+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    478  0.03s             1           0  0.11s           2025-04-21T03:15:39                      12
+/opt/airflow/dags/dbt_elt.py               481  0.01s             1           0  0.07s           2025-04-21T03:15:39                      13
+================================================================================
+[2025-04-21T03:16:40.185+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    488  0.01s             1           0  0.18s           2025-04-21T03:16:09                      12
+/opt/airflow/dags/dbt_elt.py               491  0.00s             1           0  0.13s           2025-04-21T03:16:09                      13
+================================================================================
+[2025-04-21T03:17:10.684+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    498  0.02s             1           0  0.15s           2025-04-21T03:16:40                      12
+/opt/airflow/dags/dbt_elt.py               501  0.01s             1           0  0.11s           2025-04-21T03:16:40                      13
+================================================================================
+[2025-04-21T03:17:41.142+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    508  0.02s             1           0  0.11s           2025-04-21T03:17:10                      12
+/opt/airflow/dags/dbt_elt.py               511  0.00s             1           0  0.06s           2025-04-21T03:17:10                      13
+================================================================================
+[2025-04-21T03:18:11.621+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    518  0.04s             1           0  0.11s           2025-04-21T03:17:41                      12
+/opt/airflow/dags/dbt_elt.py               521  0.00s             1           0  0.06s           2025-04-21T03:17:41                      13
+================================================================================
+[2025-04-21T03:18:42.170+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    528  0.04s             1           0  0.19s           2025-04-21T03:18:11                      12
+/opt/airflow/dags/dbt_elt.py               531  0.02s             1           0  0.12s           2025-04-21T03:18:11                      13
+================================================================================
+[2025-04-21T03:18:59.500+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T03:18:59.507+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T03:19:12.708+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    538  0.01s             1           0  0.17s           2025-04-21T03:18:42                      12
+/opt/airflow/dags/dbt_elt.py               541  0.00s             1           0  0.11s           2025-04-21T03:18:42                      13
+================================================================================
+[2025-04-21T03:19:43.187+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    548  0.02s             1           0  0.11s           2025-04-21T03:19:12                      12
+/opt/airflow/dags/dbt_elt.py               550  0.00s             1           0  0.07s           2025-04-21T03:19:12                      13
+================================================================================
+[2025-04-21T03:20:13.680+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    558  0.02s             1           0  0.17s           2025-04-21T03:19:43                      12
+/opt/airflow/dags/dbt_elt.py               561  0.00s             1           0  0.11s           2025-04-21T03:19:43                      13
+================================================================================
+[2025-04-21T03:20:44.128+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    568  0.01s             1           0  0.12s           2025-04-21T03:20:13                      12
+/opt/airflow/dags/dbt_elt.py               571  0.00s             1           0  0.07s           2025-04-21T03:20:13                      13
+================================================================================
+[2025-04-21T03:21:05.583+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T03:22:03.233+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T03:22:03.234+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-04-21T03:22:03.234+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T03:22:03.238+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T03:22:03.246+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T03:22:04.451+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    209  0.01s             0           0                                                   0
+/opt/airflow/dags/dbt_elt.py               212  0.01s             0           0                                                   0
+================================================================================
+[2025-04-21T03:22:34.838+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    219  0.01s             1           0  0.24s           2025-04-21T03:22:04                      45
+/opt/airflow/dags/dbt_elt.py               222  0.00s             0           1  0.06s           2025-04-21T03:22:04                       4
+================================================================================
+[2025-04-21T03:23:05.283+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    229  0.03s             1           0  0.11s           2025-04-21T03:22:34                      12
+/opt/airflow/dags/dbt_elt.py               232  0.01s             0           1  0.04s           2025-04-21T03:22:34                       6
+================================================================================
+[2025-04-21T03:23:35.713+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    239  0.01s             1           0  0.17s           2025-04-21T03:23:05                      12
+/opt/airflow/dags/dbt_elt.py               242  0.00s             0           1  0.07s           2025-04-21T03:23:05                       6
+================================================================================
+[2025-04-21T03:24:06.212+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    249  0.03s             1           0  0.11s           2025-04-21T03:23:35                      12
+/opt/airflow/dags/dbt_elt.py               252  0.00s             0           1  0.05s           2025-04-21T03:23:35                       6
+================================================================================
+[2025-04-21T03:24:36.635+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    259  0.02s             1           0  0.16s           2025-04-21T03:24:06                      12
+/opt/airflow/dags/dbt_elt.py               262  0.00s             0           1  0.05s           2025-04-21T03:24:06                       6
+================================================================================
+[2025-04-21T03:24:54.796+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T03:25:22.844+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T03:25:22.845+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-04-21T03:25:22.846+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T03:25:22.848+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T03:25:22.864+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T03:25:24.009+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    209  0.02s             0           0                                                   0
+/opt/airflow/dags/dbt_elt.py               212  0.02s             0           0                                                   0
+================================================================================
+[2025-04-21T03:25:54.414+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    219  0.02s             1           0  0.14s           2025-04-21T03:25:24                      12
+/opt/airflow/dags/dbt_elt.py               222  0.00s             0           1  0.05s           2025-04-21T03:25:24                       6
+================================================================================
+[2025-04-21T03:26:24.869+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    229  0.02s             1           0  0.14s           2025-04-21T03:25:54                      12
+/opt/airflow/dags/dbt_elt.py               232  0.01s             0           1  0.04s           2025-04-21T03:25:54                       6
+================================================================================
+[2025-04-21T03:26:55.299+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    239  0.02s             1           0  0.15s           2025-04-21T03:26:24                      12
+/opt/airflow/dags/dbt_elt.py               242  0.00s             0           1  0.05s           2025-04-21T03:26:24                       6
+================================================================================
+[2025-04-21T03:27:25.761+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    249  0.01s             1           0  0.20s           2025-04-21T03:26:55                      12
+/opt/airflow/dags/dbt_elt.py               252  0.00s             0           1  0.07s           2025-04-21T03:26:55                       6
+================================================================================
+[2025-04-21T03:27:56.242+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    259  0.06s             1           0  0.11s           2025-04-21T03:27:25                      12
+/opt/airflow/dags/dbt_elt.py               261  0.01s             0           1  0.04s           2025-04-21T03:27:25                       6
+================================================================================
+[2025-04-21T03:28:26.679+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    269  0.01s             1           0  0.20s           2025-04-21T03:27:56                      12
+/opt/airflow/dags/dbt_elt.py               272  0.01s             0           1  0.06s           2025-04-21T03:27:56                       6
+================================================================================
+[2025-04-21T03:28:57.093+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    279  0.01s             1           0  0.11s           2025-04-21T03:28:26                      12
+/opt/airflow/dags/dbt_elt.py               282  0.00s             0           1  0.05s           2025-04-21T03:28:26                       6
+================================================================================
+[2025-04-21T03:29:27.505+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    289  0.01s             1           0  0.12s           2025-04-21T03:28:57                      12
+/opt/airflow/dags/dbt_elt.py               292  0.00s             0           1  0.05s           2025-04-21T03:28:57                       6
+================================================================================
+[2025-04-21T03:29:36.569+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T03:30:24.435+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T03:30:24.436+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-04-21T03:30:24.436+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T03:30:24.436+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T03:30:24.443+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T03:30:25.549+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    184  0.01s             0           0                                                   0
+/opt/airflow/dags/dbt_elt.py               187  0.01s             0           0                                                   0
+================================================================================
+[2025-04-21T03:30:55.976+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    194  0.04s             1           0  0.23s           2025-04-21T03:30:25                      45
+/opt/airflow/dags/dbt_elt.py               197  0.01s             0           1  0.03s           2025-04-21T03:30:25                       4
+================================================================================
+[2025-04-21T03:36:44.139+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T03:36:44.154+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T03:36:48.293+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py                           1           0  0.19s           2025-04-21T03:36:44                      12
+/opt/airflow/dags/dbt_elt.py                                      0           1  0.06s           2025-04-21T03:36:44                       6
+================================================================================
+[2025-04-21T03:37:02.476+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T03:38:00.239+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T03:38:00.239+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-04-21T03:38:00.239+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T03:38:00.240+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T03:38:00.256+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T03:38:01.522+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    184  0.02s             0           0                                                   0
+/opt/airflow/dags/dbt_elt.py               187  0.02s             0           0                                                   0
+================================================================================
+[2025-04-21T03:38:31.925+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    194  0.02s             1           0  0.15s           2025-04-21T03:38:01                      12
+/opt/airflow/dags/dbt_elt.py               197  0.01s             0           1  0.04s           2025-04-21T03:38:01                       6
+================================================================================
+[2025-04-21T03:39:02.378+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    204  0.02s             1           0  0.14s           2025-04-21T03:38:32                      12
+/opt/airflow/dags/dbt_elt.py               207  0.00s             0           1  0.05s           2025-04-21T03:38:31                       6
+================================================================================
+[2025-04-21T03:39:32.847+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    214  0.02s             1           0  0.12s           2025-04-21T03:39:02                      12
+/opt/airflow/dags/dbt_elt.py               216  0.00s             0           1  0.05s           2025-04-21T03:39:02                       6
+================================================================================
+[2025-04-21T03:40:03.233+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    224  0.02s             1           0  0.15s           2025-04-21T03:39:32                      12
+/opt/airflow/dags/dbt_elt.py               227  0.01s             0           1  0.06s           2025-04-21T03:39:32                       6
+================================================================================
+[2025-04-21T03:40:33.729+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dbt_elt.py               266  0.00s             1           0  0.19s           2025-04-21T03:40:03                      46
+/opt/airflow/dags/extract_stock_data.py    263  0.01s             1           0  0.16s           2025-04-21T03:40:03                      12
+================================================================================
+[2025-04-21T03:41:04.220+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    273  0.02s             1           0  0.14s           2025-04-21T03:40:33                      12
+/opt/airflow/dags/dbt_elt.py               276  0.00s             1           0  0.08s           2025-04-21T03:40:33                      13
+================================================================================
+[2025-04-21T03:41:34.697+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    287  0.02s             1           0  0.13s           2025-04-21T03:41:04                      12
+/opt/airflow/dags/dbt_elt.py               290  0.01s             1           0  0.07s           2025-04-21T03:41:04                      13
+================================================================================
+[2025-04-21T03:42:05.089+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    297  0.02s             1           0  0.12s           2025-04-21T03:41:34                      12
+/opt/airflow/dags/dbt_elt.py               300  0.00s             1           0  0.07s           2025-04-21T03:41:34                      13
+================================================================================
+[2025-04-21T03:42:35.531+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    307  0.01s             1           0  0.14s           2025-04-21T03:42:05                      12
+/opt/airflow/dags/dbt_elt.py               310  0.00s             1           0  0.08s           2025-04-21T03:42:05                      13
+================================================================================
+[2025-04-21T03:43:00.960+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T03:43:00.977+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T03:43:06.099+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    317  0.04s             1           0  0.13s           2025-04-21T03:42:35                      12
+/opt/airflow/dags/dbt_elt.py               320  0.01s             1           0  0.08s           2025-04-21T03:42:35                      13
+================================================================================
+[2025-04-21T03:43:36.666+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    327  0.02s             1           0  0.17s           2025-04-21T03:43:06                      12
+/opt/airflow/dags/dbt_elt.py               329  0.01s             1           0  0.10s           2025-04-21T03:43:06                      13
+================================================================================
+[2025-04-21T03:44:07.175+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    337  0.02s             1           0  0.16s           2025-04-21T03:43:36                      12
+/opt/airflow/dags/dbt_elt.py               340  0.00s             1           0  0.10s           2025-04-21T03:43:36                      13
+================================================================================
+[2025-04-21T03:44:37.633+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    347  0.02s             1           0  0.12s           2025-04-21T03:44:07                      12
+/opt/airflow/dags/dbt_elt.py               350  0.00s             1           0  0.07s           2025-04-21T03:44:07                      13
+================================================================================
+[2025-04-21T03:45:08.135+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    357  0.02s             1           0  0.12s           2025-04-21T03:44:37                      12
+/opt/airflow/dags/dbt_elt.py               360  0.01s             1           0  0.07s           2025-04-21T03:44:37                      13
+================================================================================
+[2025-04-21T03:45:38.699+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    367  0.02s             1           0  0.15s           2025-04-21T03:45:08                      12
+/opt/airflow/dags/dbt_elt.py               370  0.01s             1           0  0.08s           2025-04-21T03:45:08                      13
+================================================================================
+[2025-04-21T03:46:09.161+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    377  0.01s             1           0  0.13s           2025-04-21T03:45:38                      12
+/opt/airflow/dags/dbt_elt.py               380  0.00s             1           0  0.08s           2025-04-21T03:45:38                      13
+================================================================================
+[2025-04-21T03:46:39.676+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    387  0.02s             1           0  0.11s           2025-04-21T03:46:09                      12
+/opt/airflow/dags/dbt_elt.py               390  0.00s             1           0  0.06s           2025-04-21T03:46:09                      13
+================================================================================
+[2025-04-21T03:47:10.196+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    397  0.03s             1           0  0.11s           2025-04-21T03:46:39                      12
+/opt/airflow/dags/dbt_elt.py               400  0.00s             1           0  0.06s           2025-04-21T03:46:39                      13
+================================================================================
+[2025-04-21T04:19:18.180+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T04:19:18.186+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T04:19:44.643+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py                           1           0  0.13s           2025-04-21T04:19:18                      12
+/opt/airflow/dags/dbt_elt.py                                      1           0  0.09s           2025-04-21T04:19:18                      13
+================================================================================
+[2025-04-21T04:20:15.172+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py                           1           0  0.16s           2025-04-21T04:19:48                      12
+/opt/airflow/dags/dbt_elt.py                                      1           0  0.10s           2025-04-21T04:19:48                      13
+================================================================================
+[2025-04-21T04:20:45.606+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py                           1           0  0.13s           2025-04-21T04:20:19                      12
+/opt/airflow/dags/dbt_elt.py                                      1           0  0.07s           2025-04-21T04:20:19                      13
+================================================================================
+[2025-04-21T04:21:11.961+0000] {manager.py:468} INFO - Exiting gracefully upon receiving signal 15
+[2025-04-21T04:21:57.389+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-04-21T04:21:57.389+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-04-21T04:21:57.390+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-04-21T04:21:57.391+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T04:21:57.407+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T04:21:58.524+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    184  0.06s             0           0                                                   0
+/opt/airflow/dags/dbt_elt.py               187  0.05s             0           0                                                   0
+================================================================================
+[2025-04-21T04:22:29.235+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    194  0.02s             1           0  0.52s           2025-04-21T04:21:58                      12
+/opt/airflow/dags/dbt_elt.py               196  0.00s             1           0  0.42s           2025-04-21T04:21:58                      13
+================================================================================
+[2025-04-21T04:22:59.744+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    204  0.02s             1           0  0.17s           2025-04-21T04:22:29                      12
+/opt/airflow/dags/dbt_elt.py               207  0.01s             1           0  0.11s           2025-04-21T04:22:29                      13
+================================================================================
+[2025-04-21T04:23:30.116+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    262  0.02s             1           0  0.12s           2025-04-21T04:22:59                      12
+/opt/airflow/dags/dbt_elt.py               265  0.01s             1           0  0.07s           2025-04-21T04:22:59                      13
+================================================================================
+[2025-04-21T04:24:00.604+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    309  0.03s             1           0  0.16s           2025-04-21T04:23:30                      12
+/opt/airflow/dags/dbt_elt.py               312  0.00s             1           0  0.09s           2025-04-21T04:23:30                      13
+================================================================================
+[2025-04-21T04:24:31.009+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    319  0.02s             1           0  0.15s           2025-04-21T04:24:00                      12
+/opt/airflow/dags/dbt_elt.py               322  0.00s             1           0  0.08s           2025-04-21T04:24:00                      13
+================================================================================
+[2025-04-21T04:25:01.460+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    329  0.02s             1           0  0.13s           2025-04-21T04:24:31                      12
+/opt/airflow/dags/dbt_elt.py               332  0.00s             1           0  0.08s           2025-04-21T04:24:31                      13
+================================================================================
+[2025-04-21T04:25:31.901+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    339  0.02s             1           0  0.12s           2025-04-21T04:25:01                      12
+/opt/airflow/dags/dbt_elt.py               342  0.01s             1           0  0.07s           2025-04-21T04:25:01                      13
+================================================================================
+[2025-04-21T04:26:02.363+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    349  0.02s             1           0  0.12s           2025-04-21T04:25:32                      12
+/opt/airflow/dags/dbt_elt.py               352  0.01s             1           0  0.06s           2025-04-21T04:25:31                      13
+================================================================================
+[2025-04-21T04:26:32.784+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    359  0.02s             1           0  0.12s           2025-04-21T04:26:02                      12
+/opt/airflow/dags/dbt_elt.py               362  0.01s             1           0  0.07s           2025-04-21T04:26:02                      13
+================================================================================
+[2025-04-21T04:26:58.164+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-04-21T04:26:58.174+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-04-21T04:27:03.275+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    369  0.02s             1           0  0.14s           2025-04-21T04:26:32                      12
+/opt/airflow/dags/dbt_elt.py               372  0.01s             1           0  0.08s           2025-04-21T04:26:32                      13
+================================================================================
+[2025-04-21T04:27:33.778+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    379  0.03s             1           0  0.15s           2025-04-21T04:27:03                      12
+/opt/airflow/dags/dbt_elt.py               382  0.02s             1           0  0.09s           2025-04-21T04:27:03                      13
+================================================================================
+[2025-04-21T04:28:04.316+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_stock_data.py    389  0.02s             1           0  0.18s           2025-04-21T04:27:33                      12
+/opt/airflow/dags/dbt_elt.py               392  0.01s             1           0  0.12s           2025-04-21T04:27:33                      13
+================================================================================

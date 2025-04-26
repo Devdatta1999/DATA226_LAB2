@@ -6,7 +6,7 @@ from pendulum import datetime
 # Path to your dbt project inside the Airflow container
 DBT_PROJECT_DIR = "/opt/airflow/dbt/dbt_stock_project"
 
-# Load Snowflake connection credentials from Airflow
+# Load Snowflake connection  from Airflow connection
 conn = BaseHook.get_connection('snowflake_conn')
 
 with DAG(

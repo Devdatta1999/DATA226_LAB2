@@ -103,7 +103,7 @@ def load_to_snowflake(file_paths):
             """
             cur.execute(copy_sql)
 
-            os.remove(file_path)  # Cleanup temporary file
+            os.remove(file_path)  
 
         cur.execute("COMMIT;")
     except Exception as e:
@@ -117,7 +117,7 @@ def load_to_snowflake(file_paths):
 with DAG(
     dag_id='extract_stock_data',
     start_date=datetime(2025, 2, 21),
-    schedule_interval='0 9 * * *',  # Daily at 9 AM
+    schedule_interval='0 9 * * *',  
     catchup=False,
     tags=['ETL', 'Stock'],
 ) as dag:
